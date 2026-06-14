@@ -92,6 +92,8 @@ Note: quintazide was considered as an alternative treatment comparator but is no
 
 Run `make dashboard` to launch locally at `http://localhost:8501`.
 
+Live dashboard: https://teiko-immune-analysis.streamlit.app
+
 The dashboard has three pages:
 1. **Overview** — filterable frequency table + average % bar chart
 2. **Statistical Analysis** — Mann-Whitney results table + interactive boxplots
