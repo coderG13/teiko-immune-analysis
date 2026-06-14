@@ -1,0 +1,17 @@
+Part 4: Melanoma PBMC Baseline (t=0) Miraclib Samples
+=======================================================
+
+Samples per project:
+  prj1: 384
+  prj3: 272
+
+Subjects by response:
+  no: 325
+  yes: 331
+
+Subjects by sex:
+  F: 312
+  M: 344
+
+Avg B cells (melanoma male responders, t=0): 10401.28
+  (based on 184 samples)
