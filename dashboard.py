@@ -35,8 +35,8 @@ st.set_page_config(
 @st.cache_resource
 def get_conn():
     if not os.path.exists(DB_PATH):
-    import load_data
-    load_data.main()
+        import load_data
+        load_data.main()
     return sqlite3.connect(DB_PATH, check_same_thread=False)
 
 
