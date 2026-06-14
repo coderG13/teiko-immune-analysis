@@ -35,8 +35,8 @@ st.set_page_config(
 @st.cache_resource
 def get_conn():
     if not os.path.exists(DB_PATH):
-        st.error(f"Database '{DB_PATH}' not found. Run `python load_data.py` first.")
-        st.stop()
+    import load_data
+    load_data.main()
     return sqlite3.connect(DB_PATH, check_same_thread=False)
 
 
